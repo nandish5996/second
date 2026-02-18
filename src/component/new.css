@@ -1,19 +1,22 @@
 *{
     div{
-        border: 2px solid red;
+      border: 2px solid red; 
     }
 }
 .footer{
-    max-width: 900px;
-    height: 70vh;
+    max-width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: rgb(5, 5, 49);
+    flex-wrap: wrap
 }
 .foot{
     flex: 1; 
     margin: 10px;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .footl{
     flex: 1;
@@ -23,21 +26,62 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 20px;
 }
 .foot1t{
     flex: 1;
     display: flex;
+    gap:5px;
+     color: white;
+     flex-wrap: wrap;
 }
 .tlog{
-    flex: 2;
+    flex: 1;
+    border-radius: 50%;
+    
 }
+
 .tlogname{
-    flex:4;
-    text-justify: center;
+    flex: 3;
+    
+     color: white;
+     margin-top: 15px;
+     font-size: 20px;
 }
 .foot1b{
     flex: 5;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    
+}
+.f1ba{
+    flex: 1;
+}
+.f1bb{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.facebook{
+    flex: 1;
+    border-radius: 50%;
+}
+.twiter{
+    flex: 1;
+    border-radius: 50%;
+}
+.instagram{
+    flex: 1;
+    border-radius: 50%;
+}
+.youtube{
+    flex: 1;
+    border-radius: 50%;
+}
+.f1bc{
+    flex: 1;
 }
 .foot2{
     flex: 1;
@@ -48,9 +92,26 @@
 .foot2t{
     flex: 1;
     text-align: center;
+     color: white;
 }
 .foot2b{
     flex: 6;
+    display: flex;
+    flex-direction: column;
+     color: grey;
+     text-align: center;
+}
+.f2a{
+    flex: 1;
+}
+.f2b{
+    flex: 1;
+}
+.f2c{
+    flex: 1;
+}
+.f2d{
+    flex: 1;
 }
 .footr{
     flex: 1;
@@ -65,9 +126,26 @@
 .foot3t{
     flex: 1;
     text-align: center;
+     color: white;
 }
 .foot3b{
     flex: 6;
+    display: flex;
+    flex-direction: column;
+     color: grey;
+     text-align: center;
+}
+.f3a{
+    flex: 1;
+}
+.f3b{
+    flex: 1;
+}
+.f3c{
+    flex: 1;
+}
+.f3d{
+    flex: 1;
 }
 .foot4{
     flex: 1;
@@ -78,14 +156,45 @@
 .foot4t{
     flex: 1;
     text-align: center;
+     color: white;
 }
 .foot4b{
     flex: 6;
+    display: flex;
+    flex-direction: column;
+     color: grey;
+     text-align: center;
+}
+.f4a{
+    flex: 1;
+}
+.f4b{
+    flex: 1;
+}
+.f4c{
+    flex: 1;
+}
+.f4d{
+    flex: 1;
+}
+.f4e{
+    flex: 1;
+}
+.f4f{
+    flex: 1;
 }
 .footb{
-    height: 20px;
+     border-top: 1px solid rgb(63, 60, 60); 
+    margin: 10px;
     text-align: center;
+    color: grey;
+    flex-wrap: wrap;   
 }
 
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
 
 

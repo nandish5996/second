@@ -1,4 +1,7 @@
 import './new.css'
+import img1 from '../assets/logof.png'
+
+
 function New() {
 
 
@@ -9,24 +12,50 @@ function New() {
           <div className='footl'>
           <div className='foot1'>
             <div className='foot1t'>
-              <div className='tlog'></div>
+              <div className='tlog'><img src={img1}/></div>
               <div className='tlogname'>StarWish</div>
             </div>
-            <div className='foot1b'></div>
+            <div className='foot1b'>
+              <div className='f1ba'>Book personalized video messages from your favorite celebrities</div>
+              <div className='f1bb'>
+                <div className='facebook'></div>
+                <div className='twiter'></div>
+                <div className='instagram'></div>
+                <div className='youtube'></div>
+              </div>
+              <div className='f1bc'></div>
+            </div>
           </div>
           <div className='foot2'>
             <div className='foot2t'>Quick Links</div>
-            <div className='foot2b'></div>
+            <div className='foot2b'>
+              <div className='f2a'>Browse Celebrities</div>
+              <div className='f2b'>My Orders</div>
+              <div className='f2c'>Login</div>
+              <div className='f2d'></div>
+            </div>
           </div>
           </div>
           <div className='footr'>
           <div className='foot3'>
             <div className='foot3t'>For Celebrities</div>
-            <div className='foot3b'></div>
+            <div className='foot3b'>
+              <div className='f3a'>Celebrity Login</div>
+              <div className='f3b'>Dashboard</div>
+              <div className='f3c'>Join as Celebrity</div>
+              <div className='f3d'></div>
+            </div>
           </div>
           <div className='foot4'>
              <div className='foot4t'>Company</div>
-            <div className='foot4b'></div>
+            <div className='foot4b'>
+              <div className='f4a'>About Us</div>
+               <div className='f4b'>Contact</div>
+                <div className='f4c'>FAQ</div>
+                 <div className='f4d'>Terms of Service</div>
+                  <div className='f4e'>Privacy Policy</div>
+                   <div className='f4f'></div>
+            </div>
           </div>
           </div>
         </div>
