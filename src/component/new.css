@@ -1,0 +1,91 @@
+*{
+    div{
+        border: 2px solid red;
+    }
+}
+.footer{
+    max-width: 900px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.foot{
+    flex: 1; 
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+}
+.footl{
+    flex: 1;
+    display: flex;
+}
+.foot1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.foot1t{
+    flex: 1;
+    display: flex;
+}
+.tlog{
+    flex: 2;
+}
+.tlogname{
+    flex:4;
+    text-justify: center;
+}
+.foot1b{
+    flex: 5;
+}
+.foot2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+     gap: 5px;
+}
+.foot2t{
+    flex: 1;
+    text-align: center;
+}
+.foot2b{
+    flex: 6;
+}
+.footr{
+    flex: 1;
+    display: flex;
+}
+.foot3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+     gap: 5px;
+}
+.foot3t{
+    flex: 1;
+    text-align: center;
+}
+.foot3b{
+    flex: 6;
+}
+.foot4{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+     gap: 5px;
+}
+.foot4t{
+    flex: 1;
+    text-align: center;
+}
+.foot4b{
+    flex: 6;
+}
+.footb{
+    height: 20px;
+    text-align: center;
+}
+
+
+
