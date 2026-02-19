@@ -1,5 +1,10 @@
 import './new.css'
 import img1 from '../assets/logof.png'
+import img2 from '../assets/facebook1.svg'
+import img3 from '../assets/twitter.svg'
+import img4 from '../assets/instagram.svg'
+import img5 from '../assets/youtube.svg'
+
 
 
 function New() {
@@ -18,10 +23,10 @@ function New() {
             <div className='foot1b'>
               <div className='f1ba'>Book personalized video messages from your favorite celebrities</div>
               <div className='f1bb'>
-                <div className='facebook'></div>
-                <div className='twiter'></div>
-                <div className='instagram'></div>
-                <div className='youtube'></div>
+                <div className='facebook'><img src={img2}/></div>
+                <div className='twiter'><img src={img3}/></div>
+                <div className='instagram'><img src={img4}/></div>
+                <div className='youtube'><img src={img5}/></div>
               </div>
               <div className='f1bc'></div>
             </div>

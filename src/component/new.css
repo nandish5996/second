@@ -1,11 +1,11 @@
 *{
     div{
-      border: 2px solid red; 
+      
     }
 }
 .footer{
     max-width: 100%;
-    height: 100%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     background-color: rgb(5, 5, 49);
@@ -60,14 +60,19 @@
 }
 .f1bb{
     flex: 1;
+    width: 100px;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    
 }
 .facebook{
     flex: 1;
     border-radius: 50%;
+    
 }
+
+
 .twiter{
     flex: 1;
     border-radius: 50%;
@@ -80,6 +85,7 @@
     flex: 1;
     border-radius: 50%;
 }
+
 .f1bc{
     flex: 1;
 }
